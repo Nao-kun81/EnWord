@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/home_sytle.css">
+    <link rel="stylesheet" href="../static/home_style_res.css">
+    <title>EnWord</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">EnWord for Raiya</h1>
+    </header>
+    <div class="wrapper">
+        <div class="contents-1">
+            <div class="contents-1-main">
+                <h2>{{ question_word }}</h2>
+                <p style="text-align: center;">半角で入力して下さい</p>
+                <form method="POST">
+                    <input type="text" name="answer" class="m-form-text" style="text-align: center;">
+                    <input type="submit" class="confirm" value="回答">
+                </form>
+                
+            </div> 
+        </div>
+        <!--<div class="contents-2">
+            <h2>分からなかった単語</h2>
+            <table border="1">
+                <tr>
+                    <td>英単語</td><td>日本語訳</td><td><a>編集</a><a>削除</a></td>
+                </tr>
+                <tr>
+                    <td>英単語</td><td>日本語訳</td><td><a>編集</a><a>削除</a></td>
+                </tr>
+                <tr>
+                    <td>英単語</td><td>日本語訳</td><td><a>編集</a><a>削除</a></td>
+                </tr>
+            </table>
+        </div>-->
+    </div>
+    
+</body>
+</html>

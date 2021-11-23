@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+.check{
+    color: red;
+    padding-top: 10px;
+}
+
+.correct{
+    padding-top: 10px;
+}

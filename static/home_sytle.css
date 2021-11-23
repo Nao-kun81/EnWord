@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+header img {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.title {
+  margin:30px auto 0 auto;
+  text-align: center;
+  width: 320px;
+}
+
+.contents-1 {
+  margin: 0 auto;
+  width: 800px;
+  height: 580px;
+}
+
+.contents-1 h2 ,
+.contents-1 h4 {
+  text-align: center;
+}
+
+.contents-1-main {
+  height: 300px;
+  width: 600px;
+  border: solid 2px black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-form-text {
+  margin:  0 auto;
+  height: 2.4em;
+  width: 80%;
+  padding: 0 16px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 0 1px #ccc inset;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.m-form-text:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgb(49, 58, 66) inset;
+}
+
+.confirm {
+  margin: 30px auto 0 auto;
+  width: 100px;
+  height: 40px;
+  background-color: #EEEEEE;
+  border: solid 1px #555555;
+}
+
+.confirm:hover {
+  background-color: 	#DDDDDD;
+}
+
+.answer {
+  margin-top: 50px;
+}
+
+.correct {
+  border:solid 2px black;
+  padding:10px;
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.contents-2 h2 {
+  margin-top: 50px;
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width:540px)  {
+    
+    header {
+        height: 300px;
+    }
+
+    header img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .contents-1 {
+        width: 100%;
+    }
+
+    .contents-1-main {
+        width: 100%;
+        height: 530px;
+    }
+
+    .correct {
+        width: 100%;
+    }
+
+}
